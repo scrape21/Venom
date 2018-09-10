@@ -1,13 +1,16 @@
 {
-"name": "Test",
-"description": "Test",
-"version": "0.0.0",
-"main": "bot2.js",
-"scripts": {
-  "start": "node bot2.js" 
+  "name": "package",
+  "version": "1.0.0",
+  "description": "I'm a text tutorial bot!",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "winston": "^2.4.0"
   },
-  "depencies": {
-    "discord.js": "11.1.0",
-    "request": "2.81.0"
-    }
- }
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Soner (Cyclops)",
+  "license": "ISC"
+}

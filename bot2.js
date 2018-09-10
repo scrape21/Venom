@@ -30,9 +30,6 @@ client.on("message", (message) => {
             }
 });
 
-var bot = new Discord.Client({
-    token: auth.token,
-    autorun:true
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.username}!`);
@@ -116,4 +113,4 @@ var s = "JavaScript syntax highlighting";
 
 
 
-client.login('NDc4Mzg0OTg5NjU0ODc2MTYz.DlJ6WA.F9dFTq6nzIura_VExHHXc8yl6-Y');
+client.login(process.env.BOT_TOKEN);
